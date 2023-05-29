@@ -8,4 +8,4 @@ This repository contains the code for my semester project on "Approximation Tech
 
 The idea is to make the multi-agent learning algorithms from [1] more scalable using approximation methods for Gaussian processes (GP) and submodular function maximization. We chose the algorithms from [2] and [3], and call the resulting scheme "MaCQFF".
 
-Since our implementation relies heavily on the implementation by Prajapat et al., we refer to the [official repository](https://github.com/manish-pra/SafeMaC) for dependencies and running instructions. The use of quadrature Fourier features (QFF) can be activated by setting the flag "qff" to "True" in the params file used in main.py.
+Since our implementation builds on the code by Prajapat et al., we refer to the [official repository](https://github.com/manish-pra/SafeMaC) for dependencies and running instructions. To use the quadrature Fourier features (QFF) approximation, set '''qff''' to '''True''' in the params file in main.py. To use the Stochastic-Greedy algorithm, set '''stochastic_greedy''' to '''True'''.
